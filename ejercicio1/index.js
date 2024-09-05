@@ -2,7 +2,7 @@ const scc = require('prompt-sync')();
 
 let opc=0, num1=0, num2=0,num3=0, resultado=0, i=0, opc2=0, control=0;
 let numeros = [];
-    
+
 // FUNCIONES
 
 function suma(num1, num2, ...numeros) {
@@ -24,7 +24,6 @@ function resta(num1, num2, ...numeros){
 
     return resultado;
 }
-//hola
 
 function multiplicar(num1, num2, ...numeros){
     resultado = num1 * num2;
